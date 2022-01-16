@@ -46,10 +46,10 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "vue-cli-service lint --cache --fix"
+      "vue-cli-service lint --fix"
     ],
     "*.vue": [
-      "vue-cli-service lint --cache --fix"
+      "vue-cli-service lint --fix"
     ]
   }
 }
