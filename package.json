@@ -20,6 +20,7 @@
     "core-js": "^3.6.5",
     "husky": ">=6",
     "lint-staged": ">=10",
+    "normalize.css": "^8.0.1",
     "postcss": "^8.4.5",
     "postcss-loader": "^6.2.1",
     "postcss-pxtorem": "^5.1.1",
