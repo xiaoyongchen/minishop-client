@@ -13,9 +13,13 @@
   "dependencies": {
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
+    "amfe-flexible": "^2.2.1",
     "core-js": "^3.6.5",
     "husky": ">=6",
     "lint-staged": ">=10",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-pxtorem": "^5.1.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -46,10 +50,13 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "vue-cli-service lint --fix"
+      "vue-cli-service lint --fix",
+      "prettier --write",
+      "git add"
     ],
     "*.vue": [
-      "vue-cli-service lint --fix"
+      "vue-cli-service lint --fix",
+      "git add"
     ]
   }
 }
