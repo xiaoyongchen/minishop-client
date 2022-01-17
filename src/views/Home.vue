@@ -6,13 +6,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import { defineComponent, onMounted } from "vue";
+import HelloWorld from "@/components/HelloWorld.vue";
+import api from "@/plugin/api";
 
 export default defineComponent({
   name: "Home",
   components: {
     HelloWorld,
+  },
+  setup() {
+    onMounted(async () => {
+      await api["login/password"]({ account: "hui", password: "123456" });
+    });
   },
 });
 </script>
