@@ -5,6 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "fat": "vue-cli-service build --mode fat",
+    "uat": "vue-cli-service build --mode uat",
+    "prod": "vue-cli-service build --mode prod",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "prepare": "husky init && husky install",
