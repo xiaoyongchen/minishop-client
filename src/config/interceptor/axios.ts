@@ -34,8 +34,8 @@ export function responseSuccessFunc(responseObj: any) {
     console.info("响应返回成功", `url: ${responseObj.config.url}`, responseObj);
   // Toast.clear();
   if (responseObj.status !== 200) {
-    (responseObj.data?.msg || responseObj?.statusText) &&
-      Toast(responseObj.data?.msg || responseObj?.statusText);
+    // (responseObj.data?.msg || responseObj?.statusText) &&
+    //   Toast(responseObj.data?.msg || responseObj?.statusText);
     return Promise.reject(responseObj.data);
   }
   if (responseObj.data.code !== 0) {
