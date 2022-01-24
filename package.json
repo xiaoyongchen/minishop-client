@@ -19,6 +19,7 @@
     "@types/lodash": "^4.14.178",
     "@types/qs": "^6.9.7",
     "amfe-flexible": "^2.2.1",
+    "async-validator": "^4.0.7",
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "husky": ">=6",

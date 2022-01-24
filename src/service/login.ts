@@ -9,4 +9,12 @@ export default [
     mock: false,
     id: 1000,
   },
+  {
+    name: "wechat",
+    method: "GET",
+    desc: "账号密码登录",
+    path: "/wxLogin",
+    mock: false,
+    id: 1000,
+  },
 ];
