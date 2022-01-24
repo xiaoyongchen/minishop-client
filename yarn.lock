@@ -2632,6 +2632,11 @@ async-limiter@~1.0.0:
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
+async-validator@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.npmmirror.com/async-validator/download/async-validator-4.0.7.tgz?cache=0&sync_timestamp=1634529574100&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fasync-validator%2Fdownload%2Fasync-validator-4.0.7.tgz#034a0fd2103a6b2ebf010da75183bec299247afe"
+  integrity sha1-A0oP0hA6ay6/AQ2nUYO+wpkkev4=
+
 async@^2.6.2:
   version "2.6.3"
   resolved "https://registry.npmmirror.com/async/download/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
@@ -10769,6 +10774,11 @@ tryer@^1.0.1:
   resolved "https://registry.npm.taobao.org/tryer/download/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha1-8shUBoALmw90yfdGW4HqrSQSUvg=
 
+ts-import-plugin@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/ts-import-plugin/download/ts-import-plugin-2.0.0.tgz#7366beb7c6deab59165363134e8953ac07b8af49"
+  integrity sha512-pjWVq8uCjExk1XarLAUCWssEnCtHHlcQavLdhpsxIguTgKyz7sx2GqR8a0irnrHZR/+bu1SPT5L77LCuu6y5BA==
+
 ts-jest@^24.2.0:
   version "24.3.0"
   resolved "https://registry.npmmirror.com/ts-jest/download/ts-jest-24.3.0.tgz#b97814e3eab359ea840a1ac112deae68aa440869"
@@ -11465,6 +11475,14 @@ webpack-merge@^4.2.2:
   dependencies:
     lodash "^4.17.15"
 
+webpack-merge@^5.8.0:
+  version "5.8.0"
+  resolved "https://registry.npmmirror.com/webpack-merge/download/webpack-merge-5.8.0.tgz#2b39dbf22af87776ad744c390223731d30a68f61"
+  integrity sha1-Kznb8ir4d3atdEw5AiNzHTCmj2E=
+  dependencies:
+    clone-deep "^4.0.1"
+    wildcard "^2.0.0"
+
 webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
   version "1.4.3"
   resolved "https://registry.npmmirror.com/webpack-sources/download/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
@@ -11575,6 +11593,11 @@ which@^2.0.1:
   integrity sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE=
   dependencies:
     isexe "^2.0.0"
+
+wildcard@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.nlark.com/wildcard/download/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
+  integrity sha1-p30g5SAMb6qsl55LOq3Hs91/j+w=
 
 word-wrap@~1.2.3:
   version "1.2.3"

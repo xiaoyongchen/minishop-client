@@ -19,6 +19,7 @@
     "@types/lodash": "^4.14.178",
     "@types/qs": "^6.9.7",
     "amfe-flexible": "^2.2.1",
+    "async-validator": "^4.0.7",
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "husky": ">=6",
@@ -29,10 +30,12 @@
     "postcss-loader": "^6.2.1",
     "postcss-pxtorem": "^5.1.1",
     "qs": "^6.10.3",
+    "ts-import-plugin": "^2.0.0",
     "vant": "^3.4.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
+    "vuex": "^4.0.0-0",
+    "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
@@ -60,13 +63,11 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "vue-cli-service lint --fix",
-      "prettier --write",
-      "git add"
+      "vue-cli-service lint",
+      "prettier --write"
     ],
     "*.vue": [
-      "vue-cli-service lint --fix",
-      "git add"
+      "vue-cli-service lint"
     ]
   }
 }
