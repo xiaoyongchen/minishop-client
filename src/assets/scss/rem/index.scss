@@ -1,0 +1,28 @@
+/*--------用于媒体查询或者适配屏幕------------*/
+// 调用 @include height-1px();
+@mixin height-1px() {
+  @media (-webkit-device-pixel-ratio: 2) {
+    height: 1px;
+    transform: scaleY(0.5);
+  }
+  @media (-webkit-device-pixel-ratio: 3) {
+    height: 1.23px;
+    transform: scaleY(0.5);
+  }
+  @media (-webkit-device-pixel-ratio: 2.75) {
+    height: 1.44px;
+    transform: scaleY(0.5);
+  }
+}
+
+@mixin border-1px($color:#DDE2E6) {
+  @media (-webkit-device-pixel-ratio: 2) {
+    border: 1px solid $color;
+  }
+  @media (-webkit-device-pixel-ratio: 3) {
+    border: 1.23px solid $color;
+  }
+  @media (-webkit-device-pixel-ratio: 2.75) {
+    border: 1.44px solid $color;
+  }
+}

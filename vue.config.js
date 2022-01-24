@@ -3,6 +3,8 @@ const tsImportPluginFactory = require("ts-import-plugin");
 
 module.exports = {
   parallel: false,
+
+  // 高级配置，类似插槽主要功能merge loader
   chainWebpack: (config) => {
     config.module
       .rule("ts")
@@ -25,5 +27,12 @@ module.exports = {
         });
         return options;
       });
+  },
+  css: {
+    loaderOptions: {
+      scss: {
+        prependData: `@import "~@/assets/scss/index.scss";`,
+      },
+    },
   },
 };

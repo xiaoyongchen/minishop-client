@@ -1,0 +1,24 @@
+/*--------用于重置第三方样式------------*/
+#app {
+  height: 100vh !important;
+}
+
+
+.clearfix:after {
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: "";
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/*--------img------------*/
+img[src=""],
+img:not([src]) {
+  opacity: 0;
+}
