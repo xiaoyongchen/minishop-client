@@ -1,3 +1,4 @@
+/* eslint-disable */
 import axios, { AxiosRequestConfig } from "axios";
 import { isArray, isObject, assign } from "lodash";
 import API_MANAGER from "@/service";

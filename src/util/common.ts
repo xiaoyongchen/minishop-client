@@ -1,3 +1,4 @@
+/* eslint-disable */
 export function isFormData(obj: any): boolean {
   return Object.prototype.toString.call(obj) === "[object FormData]";
 }

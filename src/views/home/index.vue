@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div>首页</div>
+    <div class="title">首页</div>
   </div>
 </template>
 
@@ -14,3 +14,11 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped lang="scss">
+.home {
+  .title {
+    color: red;
+    @include safeUp();
+  }
+}
+</style>
