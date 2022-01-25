@@ -18,6 +18,7 @@ module.exports = {
           "@config": resolve(__dirname, "src/config"),
           "@constant": resolve(__dirname, "src/constant"),
           "@hooks": resolve(__dirname, "src/hooks"),
+          "@directives": resolve(__dirname, "src/directives"),
         },
       },
     };

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="title">首页</div>
+    <div class="title" v-safeInset.paddingTop="28">首页11</div>
   </div>
 </template>
 
@@ -16,8 +16,8 @@ export default defineComponent({
 </script>
 <style scoped lang="scss">
 .home {
+  height: 100vh;
   .title {
-    color: red;
     @include safeUp();
   }
 }
